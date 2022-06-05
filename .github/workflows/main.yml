@@ -16,16 +16,16 @@ jobs:
     steps:
       # Check out repo under $GITHUB_WORKSPACE
       - name: action checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Now run commands
       - name: Install NodeJS
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
       - name: Install Yarn
-        uses: borales/actions-yarn@v2.0.0
+        uses: borales/actions-yarn@v2.3.0
         with:
           #Running yarn install
           cmd: install

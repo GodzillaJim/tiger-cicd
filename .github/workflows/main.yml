@@ -16,7 +16,7 @@ jobs:
     steps:
       # Check out repo under $GITHUB_WORKSPACE
       - name: action checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       # Now run commands
       - name: Install NodeJS

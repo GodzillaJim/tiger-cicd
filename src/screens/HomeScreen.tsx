@@ -8,7 +8,7 @@ const HomeScreen = () => {
     <Card>
       <CardMedia image={Defender} sx={{ height: 600, width: 1200 }} />
       <CardContent>
-        <Typography textAlign={"center"} variant="h5">
+        <Typography color="blue" textAlign={"center"} variant="h5">
           Land Rover Defender Model 110
         </Typography>
       </CardContent>

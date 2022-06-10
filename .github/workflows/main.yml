@@ -22,7 +22,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: v16.3.0
 
       - name: Install Yarn
         uses: borales/actions-yarn@v2.3.0
